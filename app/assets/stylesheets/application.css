@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+@media all and (min-width:601px) {
+  .image {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    border: thin red solid;
+    background-image: url(<img src="http://placehold.it/400x400">); 
+  }
+
+}

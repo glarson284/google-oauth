@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'pry-rails'
 gem 'devise'
-gem 'omniauth-facebook'
+gem "omniauth-google-oauth2", '~> 0.2.6'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
